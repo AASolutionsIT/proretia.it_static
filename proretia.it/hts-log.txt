@@ -1,0 +1,30 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 15 Mar 2021 19:55:55 at 192.168.0.92 +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.mov +*.mpg +*.mpeg +*.avi +*.asf +*.mp3 +*.mp2 +*.rm +*.wav +*.vob +*.qt +*.vid +*.ac3 +*.wma +*.wmv +*.zip +*.tar +*.tgz +*.gz +*.rar +*.z +*.exe +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp
+(winhttrack -qiC2%Pn%s%u%I0H0%kf2A250000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "it, en, *" 192.168.0.92 -O1 "D:\proretia.it_static\proretia.it" +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar +*.mov +*.mpg +*.mpeg +*.avi +*.asf +*.mp3 +*.mp2 +*.rm +*.wav +*.vob +*.qt +*.vid +*.ac3 +*.wma +*.wmv +*.zip +*.tar +*.tgz +*.gz +*.rar +*.z +*.exe +*.gif +*.jpg +*.jpeg +*.png +*.tif +*.bmp )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+19:55:59	Error: 	"Not Found" (404) at link fonts.googleapis.com/ (from 192.168.0.92/)
+19:55:59	Warning: 	Moved Permanently for s.w.org/robots.txt
+19:55:59	Warning: 	File has moved from s.w.org/robots.txt to https://wordpress.org/
+19:55:59	Warning: 	Moved Permanently for s.w.org/
+19:55:59	Warning: 	File has moved from s.w.org/ to https://wordpress.org/
+19:56:01	Error: 	"Not Found" (404) at link 192.168.0.92/"http://192.168.0.92/wp-content/themes/mesmerize/assets/images/home_page_header-3.jpg" (from 192.168.0.92/)
+19:56:02	Warning: 	Warning: store text/css without scan: D:/proretia.it_static/proretia.it/gmpg.org/xfn/default.css
+19:56:02	Warning: 	Warning: store text/html without scan: D:/proretia.it_static/proretia.it/gmpg.org/xfn/.html
+19:56:03	Warning: 	Warning: store text/html without scan: D:/proretia.it_static/proretia.it/gmpg.org/xfn/intro.html
+19:56:03	Warning: 	Warning: store text/html without scan: D:/proretia.it_static/proretia.it/gmpg.org/xfn/faq.html
+19:56:03	Warning: 	File not parsed, looks like binary: 192.168.0.92/wp-content/themes/mesmerize/assets/fonts/fontawesome-webfont.woff2?v=4.7.0
+19:56:05	Warning: 	Moved Permanently for 192.168.0.92/?p=2
+19:56:05	Warning: 	File has moved from 192.168.0.92/?p=2 to http://192.168.0.92/index.php/sample-page/
+19:56:05	Error: 	"Method Not Allowed" (405) at link 192.168.0.92/xmlrpc.php (from 192.168.0.92/index.php/sample-page/)
+19:56:05	Warning: 	Found for 192.168.0.92/wp-admin/
+19:56:05	Warning: 	File has moved from 192.168.0.92/wp-admin/ to http://192.168.0.92/wp-login.php?redirect_to=http%3A%2F%2F192.168.0.92%2Fwp-admin%2F&reauth=1
+19:56:06	Warning: 	Moved Permanently for 192.168.0.92/?p=1
+19:56:06	Warning: 	File has moved from 192.168.0.92/?p=1 to http://192.168.0.92/index.php/2020/12/22/hello-world/
+19:56:06	Warning: 	Note: due to 1.gravatar.com remote robots.txt rules, links beginning with these path will be forbidden: /*.json, /*.xml, /*.php, /*.vcf, /*.qr, /accounts/activate/*, /accounts/force-by-email/*, /account/ (see in the options to disable this)
+
+HTTrack Website Copier/3.49-2 mirror complete in 17 seconds : 99 links scanned, 87 files written (2825277 bytes overall), 62 files updated [491852 bytes received at 28932 bytes/sec], 1153797 bytes transferred using HTTP compression in 57 files, ratio 28%, 6.1 requests per connection
+(3 errors, 16 warnings, 0 messages)
